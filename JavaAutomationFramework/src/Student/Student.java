@@ -15,6 +15,13 @@ public void display2() {
 		System.out.println("Automation is very easy to perform");
 		
 	}
+public int displayAge(int x) {
+	
+	System.out.println("Automation is very easy to perform");
+	System.out.println("This is your age: "+x);
+	return x;
+	
+}
 	
 	public static void main(String[] args) {
 		
@@ -27,6 +34,8 @@ public void display2() {
 		ankush.display2();
 		System.out.println(ankush.age);
 		System.out.println(ankush.rollNo);
+		ankush.displayAge(43);
+		
 		
 	}
 
